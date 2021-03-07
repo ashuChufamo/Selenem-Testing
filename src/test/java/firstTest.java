@@ -16,6 +16,7 @@ public class firstTest {
     public static void main(String[] args) throws InterruptedException {
             String email="Your Email or phone, that you used to create Facebook account.";
             String password= "Your facebook pass";
+
             System.setProperty("webdriver.chrome.driver", "Path to your chrome driver you downloaded");
             System.out.println("System Property set                                    : ✓");
             WebDriver driver = new ChromeDriver(new ChromeOptions().addArguments("\"disable-infobars\""));
